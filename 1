@@ -1,0 +1,11 @@
+import math
+
+
+A, B = map(int, input().split('x'))
+diameter = 6.5 * 2
+diagonal = math.sqrt(A ** 2 + B ** 2)
+
+if diagonal <= diameter:
+    print('да')
+else:
+    print('нет')
